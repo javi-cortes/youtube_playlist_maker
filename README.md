@@ -2,7 +2,7 @@
 ## About The Project
 `youtube_list_maker` is a simple script that creates a youtube playlist from crawling a website.
 
-In this particular case, is a website that contains retro music but could be extrapolated to anyone.
+In this particular case, is a website that contains retro music but could be extrapolated to any other.
 
 <!-- GETTING STARTED -->
 ## Getting Started
