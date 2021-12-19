@@ -17,5 +17,6 @@ In order to run the project you will need the following:
 ***
 1. Rewrite client_secrets.json with your YouTube API creds.
 2. make run
+3. Your list should be created!
 
 
