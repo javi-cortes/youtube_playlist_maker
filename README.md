@@ -13,7 +13,7 @@ In order to run the project you will need the following:
 * [docker](https://docs.docker.com/engine/install/)
 * Youtube API v3 OAuth creds: (https://developers.google.com/youtube/registering_an_application).
 
-## Installation
+## How to
 ***
 1. Rewrite client_secrets.json with your YouTube API creds.
 2. make run

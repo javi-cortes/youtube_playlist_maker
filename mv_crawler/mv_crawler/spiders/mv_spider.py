@@ -7,8 +7,7 @@ class MVSpider(scrapy.Spider):
     name = "mv_spider"
 
     start_urls = [
-        #"https://www.mediavida.com/foro/musica/synthwave-omg-im-so-retro-519088",
-        "https://www.mediavida.com/foro/musica/synthwave-omg-im-so-retro-519088/9",
+        "https://www.mediavida.com/foro/musica/synthwave-omg-im-so-retro-519088",
     ]
 
     def parse(self, response, **kwargs):
