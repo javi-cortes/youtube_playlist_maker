@@ -126,7 +126,4 @@ if __name__ == "__main__":
     playlist_response = create_playlist()
     playlist_id = playlist_response['id']
     print(f"{playlist_id} createad")
-
-    # playlist_id = "PLfFvIvhdR5JCbq0cyfGuB-CBSlPEaOPcv"
-    # addvideo_response = add_video(playlist_id, "OMJUAEwzX3s")
     print("END")

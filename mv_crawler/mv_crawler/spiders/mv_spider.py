@@ -28,3 +28,12 @@ class MVSpider(scrapy.Spider):
             yield scrapy.Request(next_page, callback=self.parse)
 
         print(f"scrappy ended at {response.url}")
+
+
+"""
+
+Next link found! legoo /foro/musica/synthwave-omg-im-so-retro-519088/22
+
+
+last video: Vgp8OPlWy00
+"""
