@@ -1,3 +1,6 @@
+import os
+
+from dotenv import load_dotenv
 # Scrapy settings for mv_crawler project
 #
 # For simplicity, this file contains only settings considered important or
@@ -87,3 +90,5 @@ DOWNLOAD_DELAY = 0.25  # 250 ms of delay
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+load_dotenv()
+WEB_TO_CRAWL = os.getenv("WEB_TO_CRAWL")

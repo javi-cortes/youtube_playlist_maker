@@ -11,12 +11,13 @@ You can use docker or Makefile to run the project.
 ### Prerequisites
 In order to run the project you will need the following:
 * [docker](https://docs.docker.com/engine/install/)
-* [Youtube API v3 OAuth creds](https://developers.google.com/youtube/registering_an_application).
+* [Youtube API v3 OAuth creds](https://developers.google.com/youtube/registering_an_application)
 
 ## How to
 ***
 1. Rewrite client_secrets.json with your YouTube API creds.
-2. make run
-3. Your list should be created!
+2. make build
+3. make run
+4. Your list should be created!
 
 
