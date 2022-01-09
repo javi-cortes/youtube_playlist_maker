@@ -1,7 +1,7 @@
 help:
 	@echo "help                               -- prints this help"
 	@echo "build                              -- builds Docker containers"
-	@echo "up                                 -- start all containers"
+	@echo "run                                -- start the crawling"
 
 # @ is to hide the echo of the command
 # dkc = docker-compose -f docker-compose.dev.yml -f docker-compose.override.yml $arguments
@@ -17,4 +17,4 @@ run:
 build:
 	docker build . -t youtube-crawler
 
-.PHONY: help build up
+.PHONY: help build run

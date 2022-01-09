@@ -32,7 +32,7 @@ class MVSpider(scrapy.Spider):
 
 """
 
-Next link found! legoo /foro/musica/synthwave-omg-im-so-retro-519088/22
+Next link found! legoo /foro/musica/synthwave-omg-im-so-retro-519088/51
 
 
 last video: Vgp8OPlWy00
